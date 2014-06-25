@@ -9,3 +9,5 @@ command line
 git init - to start
 git add - "stage" changes, changes what index points to, but not what the master points to
 git commit - updates what the master points to, requests comment to go along with commit.  Doesn't necessarily store each of the changes from the add stage, only the diff between the previous master and the new master.
+
+Working through the stages.
