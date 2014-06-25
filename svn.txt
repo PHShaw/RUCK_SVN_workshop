@@ -23,4 +23,6 @@ remote - committed remote versions
 
 	make changes, stage, commit, then push to remote server.  Assuming no one else has made any changes in the mean time, this should go smoothly.  Otherwise, may need to resolve conflicts.  If they have made changes, will get error "Updates were rejected because the tip of your current branch is behind" - don't want to overwrite the other persons changes by just simply pushing.  Need to investigate conflicts, and make decisions on each difference.
 		Edit to make necessary changes
-			- remove diff tags, and resolve differences?  Then restage, commit, push.
+			- remove diff tags, and resolve differences?  Then re-stage, commit, push.
+
+Resolving conflicts - No explicit policy or tool to enforce how conflicts are handled.  Ideally a company would specify their own policy, but more likely to be processed on an individual level and face the consequences if the conflict is not handled appropriately.
