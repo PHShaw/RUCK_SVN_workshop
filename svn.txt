@@ -11,3 +11,16 @@ git add - "stage" changes, changes what index points to, but not what the master
 git commit - updates what the master points to, requests comment to go along with commit.  Doesn't necessarily store each of the changes from the add stage, only the diff between the previous master and the new master.
 
 Working through the stages.
+
+Github - limit number of private projects by subscription costs
+Atlassian - limit number of users by subscription costs
+
+Working - uncommitted local versions
+master - committed local versions
+remote - committed remote versions
+	fetch - tells you what changes there are remotely
+	pull - retrieves the changes, updating the local copy
+
+	make changes, stage, commit, then push to remote server.  Assuming no one else has made any changes in the mean time, this should go smoothly.  Otherwise, may need to resolve conflicts.  If they have made changes, will get error "Updates were rejected because the tip of your current branch is behind" - don't want to overwrite the other persons changes by just simply pushing.  Need to investigate conflicts, and make decisions on each difference.
+		Edit to make necessary changes
+			- remove diff tags, and resolve differences?  Then restage, commit, push.
